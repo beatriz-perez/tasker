@@ -1,0 +1,57 @@
+// COLORS -----------------------------------------------------------------------
+
+// Basic colors:
+$colorWhite: #FFFFFF;
+$colorMiddle: #292929;
+$colorBlack: #000000;
+$colorRed: #e96f70;
+$colorTransparent: transparent;
+$colorShadow: #B8B8B8;
+
+// theme colors
+$colorTheme1: #202C39;
+$colorTheme2: #068D9D;
+$colorTheme3: #2F0A28;
+$colorTheme4: #C94277;
+$colorTheme5: #F1A208;
+
+// TEXT COLORS
+$colorTextBase: $colorBlack;
+$colorTextMiddle: $colorMiddle;
+$colorTextLight: $colorWhite;
+$colorTextAlert: $colorRed;
+
+// BACKGROUNS:
+$backgroundHeader: $colorBlack;
+$backgroundHero: linear-gradient(135deg, $colorTheme1 0%, $colorTheme2 100%);
+$backgroundTopListsMenu: linear-gradient(135deg, $colorTheme3 0%, $colorTheme4 100%);
+$backgroundComparisonsMenu: linear-gradient(135deg, $colorMiddle 0%, $colorTheme5 100%);;
+$bacKgroundSection: $colorWhite;
+$backgroundFooter: $colorBlack;
+
+// FONTS -----------------------------------------------------------------------
+
+// Font families:
+$fontBig: 'Lalezar', cursive;
+$fontBase: 'Roboto', sans-serif;
+
+// Font weights:
+$fontBold: 400;
+$fontRegular: 300;
+
+// MEASUREMENTS -----------------------------------------------------------------------
+
+// Header & Hero:
+$hidingHeaderHeight: 80px;
+$stickyHeaderHeight: 60px;
+$totalHeaderHeight: calc(#{$hidingHeaderHeight} + #{$stickyHeaderHeight});
+
+$hidingHeroHeight: 200px;
+$stickyHeroHeight: 10px;
+$totalHeroHeight: calc(#{$hidingHeroHeight} + #{$stickyHeroHeight});
+
+// Page Menu:
+$hidingMenuHeight: 40px;
+$stickyMenuHeight: 10px;
+$totalMenuHeight: calc(#{$hidingMenuHeight} + #{$stickyMenuHeight});
+
